@@ -34,7 +34,7 @@ function showSlides() {
 2.在CSS代碼中，我們使用“display：none”將所有的幻燈片隱藏起來。
 
 3.在JavaScript代碼中，我們首先定義一個名為“slideIndex”的變量，用於跟踪當前顯示的幻
-燈片的索引。然後，我們調用名為“showSlides”的函數。
+燈片的索引。然後，我們使用“showSlides”的函數。
 
 4.在“showSlides”函數中，我們通過“document.getElementsByClassName（'mySlides'）”獲
 取所有具有“mySlides”類的元素，並通過遍歷每個幻燈片，將它們全部隱藏。
@@ -42,5 +42,5 @@ function showSlides() {
 5.接下來，我們增加幻燈片的索引，並檢查它是否超出了幻燈片的總數。如果超出了，我們就
 重新從第一張幻燈片開始。接著，我們設定當前幻燈片的display屬性為 "block"，讓它顯示
 出來。最後，我們使用setInterval()函數設定一個定時器，以便在2.5秒鐘後運行
-showSlides()函數，以顯示下一張幻燈片。這樣就實現了一個簡單的自動輪播的幻燈片效果。
+showSlides()函數，以顯示下一張幻燈片。這樣就實現了一個自動輪播的幻燈片效果。
 */

@@ -1,20 +1,9 @@
-/*
-SPACING SYSTEM (px)
-2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-
-FONT SIZE SYSTEM (px)
-10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
-*/
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* ------------------------ */
-/* GENERAL STYLES */
-/* ------------------------ */
 body {
   font-family: sans-serif;
 }
@@ -26,7 +15,7 @@ body {
 
 header,
 section {
-  margin-bottom: 48px;
+  margin-bottom: 60px;
 }
 
 h2 {
@@ -40,9 +29,32 @@ h2 {
   column-gap: 80px;
 }
 
-/* ------------------------ */
-/* COMPONENT STYLES */
-/* ------------------------ */
+.btn:link,
+.btn:visited {
+  background-color: #7f55088a;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+
+  display: inline-block;
+  border-radius: 100px;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #7f550871;
+}
+
+.btn--big {
+  font-size: 18px;
+  padding: 16px 32px;
+}
+
+.btn--small {
+  font-size: 14px;
+  padding: 8px 12px;
+}
 
 /* HEADER */
 header {
@@ -83,18 +95,16 @@ img {
 }
 
 /* FEATURES */
-.features-icon {
-}
 
 .features-title {
   margin-bottom: 16px;
 }
 
-.features-text {
-}
-
-/* TESTIMONIAL */
+/* 感想 */
 .testimonial-section {
+  background-color: #7f55087e;
+  color: #fff;
+  padding: 24px;
 }
 
 .testimonial-box {
@@ -113,6 +123,11 @@ img {
 }
 
 /* CHAIRS */
+.chair {
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+  border-radius: 12px;
+}
+
 .chair-box {
   padding: 24px;
 }
@@ -135,9 +150,6 @@ h3 {
 
 .chair-details li:last-child {
   margin-bottom: 0;
-}
-
-.chair-icon {
 }
 
 .chair-price {

@@ -6,6 +6,6 @@
 
 -在頁面中添加區域背景顏色、區域陰影的方式來劃分內容
 
--以 javascript 實作出一個圖片自動輪播的功能
+-以 javascript 做出一個圖片自動輪播的功能
 
 -於 button 上添加 link、visited、hover、active 等 CSS 樣式

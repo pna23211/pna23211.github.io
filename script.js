@@ -1,7 +1,7 @@
 let slideIndex = 0; // 初始化幻燈片(圖片)的索引
 
-// 計時器：setInterval；每經過2.3秒，觸發一次showSlides函數(切換一張幻燈片)
-setInterval(showSlides, 2300);
+// 計時器：setInterval；每經過2.5秒，觸發一次showSlides函數(切換一張幻燈片)
+setInterval(showSlides, 2500);
 
 /* 使用 getElementsByClassName 方法從 HTML 文檔中找出所有擁有 mySlides 類別的元素，
 並將它們存儲在一個名為 slides 的類陣列對象中。
@@ -41,6 +41,6 @@ function showSlides() {
 
 5.接下來，增加幻燈片的索引，並檢查它是否超出了幻燈片的總數。如果超出了，
 就重新從第一張幻燈片開始。接著，設定當前幻燈片的display屬性為 "block"，讓它顯示
-出來。最後，使用setInterval()函數設定一個定時器，以便在2.3秒後運行
+出來。最後，使用setInterval()函數設定一個定時器，以便在2.5秒後運行
 showSlides()函數，以顯示下一張幻燈片。這樣就實現了一個圖片自動輪播的功能。
 */

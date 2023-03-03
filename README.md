@@ -1,11 +1,13 @@
-# pna23211.github.io
+頁面位址：https://pna23211.github.io/
 
--以 CSS grid 的切版概念對網頁進行主要區塊的劃分
+頁面簡介：
 
--以 CSS flexbox 的切版概念對部分區塊進行位置調整
+    -以 CSS grid 的切版概念對網頁進行主要區塊的劃分
 
--在頁面中添加區域背景顏色、區域陰影的方式來劃分內容
+    -以 CSS flexbox 的切版概念對部分區塊進行位置調整
 
--以 javascript 做出一個圖片自動輪播的功能
+    -在頁面中添加區域背景顏色、區域陰影的方式來劃分內容
 
--於 button 上添加 link、visited、hover、active 等 CSS 樣式
+    -以 javascript 做出一個圖片自動輪播的功能
+
+    -於 button 上添加 link、visited、hover、active 等 CSS 樣式
